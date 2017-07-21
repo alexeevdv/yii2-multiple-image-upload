@@ -1,0 +1,30 @@
+{
+    "name": "alexeevdv/yii2-multiple-image-upload",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "kartik-v/yii2-widget-fileinput": "^1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-coding-standards": "^2.0",
+        "codeception/codeception": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Alekseev",
+            "email": "mail@alexeevdv.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "alexeevdv\\image\\": "src"
+        }
+    }
+}
